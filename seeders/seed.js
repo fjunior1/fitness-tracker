@@ -7,11 +7,13 @@ const connectDb = async () => {
       useNewUrlParser: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
-    }).then(() =>
-    {
+    }).then(() => {
       console.log("connected to mongoDB");
-    }
-    )
+    }).then(() => {
+      console.log("Connected to database!")
+    }).catch(() => {
+      console.log(err)
+    })
 }
 connectDb().catch(err => console.log(err))
 
