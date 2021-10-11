@@ -30,6 +30,12 @@ Fitness application that trackes exercises and provides a visual feedback of the
 - again in the terminal run the applicaiton typing "npm start  
 
 ## SCRENNSHOTS
+Home  
+![home](./assets/home.jpg)  
+New workout  
+![workout](./assets/nre-workout.jpg)  
+Statistics  
+![statistics](./assets/dashboard.jpg)    
 
 ## CONTACT
 - GitHub: [fjunior1](https://github.com/fjunior1)
